@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Estadísticas actuales sobre incidentes de seguridad</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      body {
+        background-color: #121212;
+      }
+      .album {
+        padding: 5rem 0;
+        background-color: #121212;
+      }
+      .card-img-top {
+        height: 225px;
+        object-fit: cover;
+      }
+      .card-body {
+        text-align: center;
+      }
+      .card-body p {
+        font-size: 0.875rem;
+        color: #777;
+      }
+      /* Ajustes para los logos en la barra de navegación */
+      .navbar-brand img {
+        height: 110px; /* Tamaño del logo de la universidad */
+        width: auto; /* Mantiene la proporción */
+      }
+      .navbar-brand img.second-logo {
+        height: 145px; /* Tamaño del segundo logo (empresa) */
+        width: auto;
+      }
+      .me-2 {
+        margin-right: 8px; /* Añade espacio entre los logos */
+      }
+    </style>
+  </head>
+  <body>
+
+     <!-- Navbar -->
+     <nav class="navbar navbar-dark bg-dark">
+        <div class="container d-flex align-items-center">
+          <!-- Logos -->
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="Logo.png" alt="Logo Universidad" class="me-2"> <!-- Logo de la universidad -->
+            <img src="kkkk.png" alt="Logo Empresa" class="second-logo"> <!-- Segundo logo -->
+          </a>
+          <span class="text-white"></span>
+        </div>
+      </nav>
+
+    <!-- Header -->
+    <header class="text-center text-white py-5">
+      <div class="container">
+        <h1 class="fw-light">Estadísticas actuales sobre incidentes de seguridad</h1>
+        <p class="lead">Pagina creada por: </p>
+        <p class="lead">Nickole Isabella Dominguez Mesta y Erick Emir Marquez Melero </p>
+      </div>
+    </header>
+
+    <!-- Album -->
+    <section class="album">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+          <!-- Card 1 -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="imagen 1.png" class="card-img-top" alt="Thumbnail">
+              <div class="card-body">
+                <p class="card-text">Imagen 1: Datos del Ransomware.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="#" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('imagen 1.png')">Click Aqui</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="imag2.png" class="card-img-top" alt="Thumbnail">
+              <div class="card-body">
+                <p class="card-text">Imagen 2: Ataques por Ingresos.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="#" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('imag2.png')">Click Aqui</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="imagen 3.png" class="card-img-top" alt="Thumbnail">
+              <div class="card-body">
+                <p class="card-text">Imagen 3: Porcentaje de Equipos Afectados.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="#" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('imagen 3.png')">Click Aqui</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="imag 4.png" class="card-img-top" alt="Thumbnail">
+              <div class="card-body">
+                <p class="card-text">Imagen 4: Datos de DDoS.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="#" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('imag 4.png')">Click Aqui</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="im 5.png" class="card-img-top" alt="Thumbnail">
+              <div class="card-body">
+                <p class="card-text">Imagen 5: Porcentaje de Clientes que han denunciado Amenazas o extorsión de rescate DDoS.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="#" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('im 5.png')">Click Aqui</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="IMG6.png" class="card-img-top" alt="Thumbnail">
+              <div class="card-body">
+                <p class="card-text">Imagen 6: Datos de ciberataque de malware.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="#" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('IMG6.png')">Click Aqui</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 7 -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="IMG7.png" class="card-img-top" alt="Thumbnail">
+              <div class="card-body">
+                <p class="card-text">Imagen 7: Las crecientes tasas de criptojacking y malware de IoT.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="#" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('IMG7.png')">Click Aqui</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 8 -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="imagen 8.png" class="card-img-top" alt="Thumbnail">
+              <div class="card-body">
+                <p class="card-text">Imagen 8: Ataques personales de phishing.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="#" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('imagen 8.png')">Click Aqui</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 9 -->
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="imagen 9.png" class="card-img-top" alt="Thumbnail">
+              <div class="card-body">
+                <p class="card-text">Imagen 9: Ataques de phishing a empresas.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="#" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal('imagen 9.png')">Click Aqui</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark text-white">
+          <div class="modal-header">
+            <h5 class="modal-title" id="imageModalLabel">Vista de imagen</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <img id="modalImage" src="" class="img-fluid" alt="Imagen ampliada">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center py-3 text-muted"> 
+    </footer>
+
+    <!-- Bootstrap core JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Script para el modal -->
+    <script>
+      function openModal(imageSrc) {
+        // Cambia la imagen del modal
+        const modalImage = document.getElementById('modalImage');
+        modalImage.src = imageSrc;
+      }
+    </script>
+  </body>
+</html>
